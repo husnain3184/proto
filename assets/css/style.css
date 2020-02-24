@@ -1,6 +1,13 @@
 * {
 	padding: 0px;margin: 0px;box-sizing: border-box;
 }
+body{
+
+	font-family: 'Open Sans';
+	  font-size: 16px;
+
+
+}
 
 header,
 section,
@@ -10,5 +17,137 @@ footer{
 }
 
 .center-wraper{
-	max-width: 1177px;float: none;margin: auto;width: 80%;
+	max-width: 1177px;
+	float: none;
+	margin: auto;
+	width: 90%;
 }
+h1{
+	font-size: 40px;
+
+}
+
+h2{
+	font-size: 32px
+}
+h3{
+	font-size:24px
+}
+header{
+	position: fixed;
+	left: 0;
+	top: 0;	
+	z-index: 99;
+	padding: 33px 0;
+
+}
+header .logo img{
+	    max-width: 76px;
+}
+header .center-wraper{
+	display: flex;
+	justify-content: space-between;
+}
+header nav ul li{
+	display: inline-block;
+}
+header nav ul li a{
+  color: #FFFFFF;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  padding: 20px 30px;
+  display: block;
+  text-decoration: none;
+  font-weight:400; 
+
+  }
+
+.banner{
+	background-image: url(../images/banner.png);
+	position: relative;
+	padding: 250px 0 350px  0;
+	background-position:center center 
+}
+.banner::before{
+  content:'';
+  background-color: rgba(4,18,50,0.9);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top:0;
+
+}
+.banner .center-wraper{
+	position: relative;
+	color: #fff;
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.banner .years-of-experience{
+	max-width: 1121px;
+	display: flex;
+	padding-top: 30px;
+}
+.banner h1,
+.banner h2,
+.banner h3,
+.banner strong{
+		font-weight:400; 
+		padding-bottom: 20px;
+
+
+}
+.banner h2{
+  line-height: 24px;
+
+}
+.banner .years-of-experience h2{
+    color: #FF3366;
+    border-right: 6px solid #FF3366;
+    padding: 0 40px 0 0px;
+    margin-right: 40px;
+    line-height: 1.3;
+}
+.banner .years-of-experience h3,
+.banner .years-of-experience h2,
+.banner .years-of-experience strong{
+	    padding-bottom:0px;
+
+}
+.banner .years-of-experience h3{
+	max-width: 669px;
+}
+.banner .years-of-experience h2 strong{
+	font-size: 40px;
+}
+
+.zoomim{
+	max-width:230px;
+    position: absolute;
+    top:150%;
+    right: 0;
+}
+.designed-solutions {
+  color: #FFFFF0;
+  font-size: 16px;
+  line-height: 22px;
+  position: absolute;
+  top: 247%;
+  width: 100%;
+}
+
+.designed-solutions p{
+	display: inline-block;
+    position: relative;
+    bottom: -11px;
+    background: #091431;
+    padding: 0 13px 0 0;
+}
+.designed-solutions hr{
+    border: 0.6px solid #fff;
+    }
