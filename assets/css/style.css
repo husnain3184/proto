@@ -1,0 +1,14 @@
+* {
+	padding: 0px;margin: 0px;box-sizing: border-box;
+}
+
+header,
+section,
+main,
+footer{
+	float: left;width: 100%;
+}
+
+.center-wraper{
+	max-width: 1177px;float: none;margin: auto;width: 80%;
+}
