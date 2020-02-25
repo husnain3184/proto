@@ -20,7 +20,7 @@ footer{
 	max-width: 1177px;
 	float: none;
 	margin: auto;
-	width: 90%;
+	width: 95%;
 }
 h1{
 	font-size: 40px;
@@ -91,7 +91,7 @@ header nav ul li a{
 .banner .years-of-experience{
 	max-width: 1121px;
 	display: flex;
-	padding-top: 30px;
+	padding-top: 30px; 
 }
 .banner h1,
 .banner h2,
@@ -150,4 +150,15 @@ header nav ul li a{
 }
 .designed-solutions hr{
     border: 0.6px solid #fff;
-    }
+}
+.clients{
+  background-color: black;
+}
+.clients ul{
+}
+.clients ul li{
+  display: inline-block;
+}
+.clients ul li a img{
+
+}
