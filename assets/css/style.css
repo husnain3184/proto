@@ -168,7 +168,7 @@ header nav ul li a{
 .clients ul li a img{   
 	    opacity: 0.6;
 }
-.testimonial{
+.qoute{
 	background-color: #F6FDFF;
 	background-image: url(../images/testimonial.png); 
 	text-align: center;
@@ -179,7 +179,7 @@ header nav ul li a{
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.testimonial p{
+.qoute p{
     color: #14213F;
     font-family: "Playfair Display";
     font-size: 35px;
@@ -188,7 +188,7 @@ header nav ul li a{
     font-weight: 400;
     padding-bottom: 20px;
 }
-.testimonial .author{
+.qoute .author{
 	color: #BDBDBD;
   font-size: 24px;
   font-weight: 600;
@@ -340,4 +340,118 @@ header nav ul li a{
 }
 .hiclipart.ShopEase img{
   max-width: 363px;
+}
+
+/*testimonial section start*/
+.testimonial{
+  background-color: #fff;
+  display: flex;
+}
+.testimonial h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 80px;
+  color: #14213F;
+  line-height: 1px;
+}
+ .testimonial hr{
+  height: 6px;
+  width: 100px;
+  background-color: #FF3366;
+  display: inline-block;
+  border: none;
+  margin: 60px 540px;
+  }
+  .testimonial .box{
+  box-sizing: border-box;
+  height: 343px;
+  width: 466px;
+  border: 2px solid #E0E0E0;
+  border-radius: 8px;
+  display: inline-block;
+  margin-left: 10px; 
+
+
+  }
+  .box img{
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+}
+  
+ .box p{
+  height: 124px;
+  width: 450px;
+  color: #14213F;
+  font-family: Times;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+ } 
+ .box .author{
+  height: 32px;
+  width: 466px;
+  color: #BDBDBD;
+  font-family: "Open Sans"; 
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+ }
+ /*contect us section start*/
+ .contact-page{
+    height: 852px;
+  width: 1280px;
+  background-color: #F6FDFF;
+ }
+.contact-page h2{
+  text-align: center;
+ padding-top: 80px;}
+.contact-form input[type=text]{
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact-form select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact-form input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 570px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
