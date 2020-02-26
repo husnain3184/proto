@@ -345,7 +345,8 @@ header nav ul li a{
 /*testimonial section start*/
 .testimonial{
   background-color: #fff;
-  display: flex;
+  padding-bottom: 100px;
+
 }
 .testimonial h2{
   text-transform: uppercase;
@@ -363,53 +364,79 @@ header nav ul li a{
   border: none;
   margin: 60px 540px;
   }
-  .testimonial .box{
+  .testimonial .box-1{
   box-sizing: border-box;
   height: 343px;
   width: 466px;
   border: 2px solid #E0E0E0;
   border-radius: 8px;
   display: inline-block;
-  margin-left: 10px; 
-
-
+  margin-left: 80px;
   }
-  .box img{
+  .box-1 img{
     height: 96px;
     width: 96px;
     border-radius: 50%;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+    position: relative;
+    left: 176px;
+    top: -37px;
+}
+  .testimonial .box-2{
+  box-sizing: border-box;
+  height: 343px;
+  width: 466px;
+  border: 2px solid #E0E0E0;
+  border-radius: 8px;
+  display: inline-block;
+ float: right;
+ margin-right: 80px;
+
+
+  }
+  .box-2 img{
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+    position: relative;
+    top: -34px;
+    left: 187px;
 }
   
  .box p{
-  height: 124px;
-  width: 450px;
-  color: #14213F;
-  font-family: Times;
-  font-size: 32px;
-  line-height: 40px;
-  text-align: center;
+  
  } 
- .box .author{
-  height: 32px;
-  width: 466px;
-  color: #BDBDBD;
-  font-family: "Open Sans"; 
-  font-size: 18px;
-  line-height: 32px;
-  text-align: center;
+ .box-1 .author{
+    
+
  }
  /*contect us section start*/
  .contact-page{
-    height: 852px;
-  width: 1280px;
   background-color: #F6FDFF;
  }
 .contact-page h2{
   text-align: center;
- padding-top: 80px;}
-.contact-form input[type=text]{
-  width: 50%;
+ padding-top: 80px;
+padding-bottom: 50px}
+.contact-form #fname[type=text]{
+  width: 40%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.contact-form #lname[type=text]{
+  width: 40%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.contact-form .email[type=text]{
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   margin-top: 6px;
@@ -429,7 +456,7 @@ header nav ul li a{
 .contact-form input[type=submit] {
   background-color: #4CAF50;
   color: white;
-  padding: 12px 570px;
+  padding: 12px 555px;
   border: none;
   cursor: pointer;
 }
