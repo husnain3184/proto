@@ -209,8 +209,36 @@ header nav ul li a{
   line-height: 75px;
 
 }
+.projects .slick-arrow{
+    top: inherit;
+    bottom: -31px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 999;
+    width:  20px;
+    height:40px;
+}
+.projects .slick-arrow::before{
+  content:">";
+  font-size: 46px;
+  display: block;
+  color: #376b8d;
+  font-weight: bold;
+  line-height: 1;
+}
+.projects .slick-prev{
+      left: -152px !important;
+}
+.projects .slick-prev::before{
+transform: rotate(180deg);
+top: 11px;
+    position: relative;
 
-
+}
+.projects .slick-next{
+right: -152px !important;
+}
 .projects .slick-dots {
   display: -webkit-box;
   display: flex;
