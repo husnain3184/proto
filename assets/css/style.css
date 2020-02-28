@@ -535,6 +535,7 @@ margin-right: auto;
 
 .group {
   background-color: #FAFAFA;
+  padding-bottom: 131px;
 }
 .sub-group h2{
   color: #14213F;
@@ -583,7 +584,37 @@ margin-right: auto;
   font-weight: 400;
   padding: 20px 0 20px ;
 }
-.sub-group .user_para{
 
+/*parona images section start...................*/
+.personas_image {
+padding-top: 30px;
+margin-bottom:10px; 
+}
+.personas_image img{
+  float: left;
+  border: 2px solid #BDBDBD;
+  margin: 1px;
+}
+/*struturing section sart........................*/
+.Structuring h2{
+  color: #14213F;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  font-weight: 400;
 }
 
+.Structuring hr{
+  height: 6px;
+  width: 100px;
+  background-color: #14213F;
+  display: inline-block;
+  border: none;
+  margin: 53px 521px 52px;
+  }
+  .Structuring p{
+  color: #041232;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+  }
