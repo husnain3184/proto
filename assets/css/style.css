@@ -6,10 +6,6 @@ body{
 	font-family: 'Open Sans';
 	font-size: 16px;
 	padding:0 30px; 
-	background-color: rgba(4,18,50,1);
-
-
-
 }
 
 header,
@@ -469,16 +465,125 @@ padding-bottom: 50px}
 
 
 
+                /*vTrust page css start*/
 
 
+.vtrust{
+  background-color: #27353A;
+}
+.vtrust h2{
+  padding: 231px 0px 12px 0;
+  color: #FFFFFF;
+  font-size: 80px;
+  font-weight: 600;
+  text-align: center;
+}
+.tags ul{
+  text-align: center;
+}
+.tags ul li{
+  display: inline-block;
+  border-right: 1px solid #9E9E9E;
+}
+.tags ul li:last-child{
+  border-right: hidden;
+}
+.tags ul li a{
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 1px 10px;
+  display: block;
+  text-decoration: none;
+  font-weight:400;
+  opacity: 80%;
+  line-height: 16px; 
+}
+.tags img{
+  padding-top: 73px;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
 
+.tags h3{
+  padding: 80px 0px 12px 0;
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.tags hr{
+  height: 6px;
+  width: 100px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  border: none;
+  margin: 40px 540px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+  }
+.tags p{
+   color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 34px;
+  text-align: center;
+  padding: 20px 98px 187px 100px;  
+}
 
+          /*group section strat */
 
+.group {
+  background-color: #FAFAFA;
+}
+.sub-group h2{
+  color: #14213F;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  font-weight: 400;
+    padding: 75px 0 0 0;
+}
 
+.sub-group hr{
+  height: 6px;
+  width: 100px;
+  background-color: #14213F;
+  display: inline-block;
+  border: none;
+  margin: 40px 540px 55px;
+  }
 
+.sub-group p{  
+  color: #041232;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+}
+/*screnshort...................................*/
+.sub-group img{
+  max-width: 670px;
+  max-height: 440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
-
-
-
+.sub-group p strong{
+  color: #616161;
+  font-size: 10px;
+  line-height: 14px;
+  margin-left: 240px;
+}
+/*user parsonas................................ */
+.sub-group h3{
+  color: #14213F;
+  font-size: 32px;
+  line-height: 43px;
+  font-weight: 400;
+  padding: 20px 0 20px ;
+}
+.sub-group .user_para{
 
 }
+
