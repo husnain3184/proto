@@ -14,6 +14,15 @@ main,
 footer{
 	float: left;width: 100%;
 }
+.flex{
+  display:flex;
+}
+.align-items{
+    align-items:center; 
+}
+.justify-content{
+      justify-content: center;
+}
 
 .full-width{
   float: left;
@@ -606,7 +615,7 @@ margin: 0 13px;
   padding: 1px 10px;
   display: block;
   text-decoration: none;
-  font-weight:400;
+  font-weight:100;
   opacity: 80%;
   line-height: 16px; 
 }
@@ -686,13 +695,16 @@ margin: 0 13px;
 }
 
 .sub-group p strong{
-  color: #616161;
-  font-size: 10px;
-  line-height: 14px;
-  margin-left: 240px;
+   color: #616161;
+    font-size: 18px;
+    line-height:40px;
+    text-align: center;
+    display: block;
+    font-weight: 400;
+
 }
 /*user parsonas................................ */
-.sub-group h3{
+.inner-padding h3{
   color: #14213F;
   font-size: 32px;
   line-height: 43px;
@@ -726,3 +738,78 @@ margin-bottom:10px;
   color: #041232;
 
   }
+ .wireframes img{
+ margin:0 8px; 
+ }
+ .the-product{
+      background-color: #27353A;
+ }
+.the-product hr{
+  background:#fff; 
+}
+.the-product p,
+.the-product h2{
+  color:#fff;
+}
+
+/*user ShopEase................................ */
+.ShopEase-bg{
+    background-color:#27353A;
+}
+.ShopEase-wrp{
+      background-color: #FA6E59;
+
+}
+.ShopEase-bg .tags img{
+  max-width:1116px;
+}
+.ShopEase-bg .tags ul li{
+  border-right: 1px solid #fff;
+}
+.ShopEase-bg .sub-group img{
+       max-width:inherit; 
+}
+.ShopEase-bg  .personas_image img{
+  max-width:400px;
+  border:none; 
+}
+.ShopEase-bg .Wireframes{
+background-color: #27353A;
+color:#fff; 
+}
+.ShopEase-bg .Wireframes hr{
+  background-color:#fff;
+}
+.ShopEase-bg .Wireframes p,
+.ShopEase-bg .Wireframes h2{
+  color:#fff;
+}
+.moblies img{
+  max-width: 179px;
+  margin: 0 30px
+}
+.Research{
+    background-color: #F6FDFF;
+} 
+/*user pebble watch................................ */
+
+.pebble-watch-wrp{
+    background-color: #75D2FF;
+
+}
+.pebble-watch-wrp .tags ul li{
+  border-right: 1px solid #14213F;
+
+}
+.pebble-watch-wrp .tags ul li a{
+    color: #14213F;
+
+}
+.pebble-watch-wrp  h3 ,
+.pebble-watch-wrp  p,
+.pebble-watch-wrp  h2{
+  color:#14213F;
+}
+.evaluation-methods{
+   background-color: #F6FDFF;
+}
