@@ -1,7 +1,7 @@
 
 @media only screen and (max-width: 1024px) {
 	.banner-heading h1,	
-	h1{font-size:54px}
+	h1{font-size:54px !important}
 	h2{font-size:26px}
 }
 @media only screen and (max-width: 890px) {
@@ -15,21 +15,29 @@
 	.banner-heading{min-height: 500px;padding:0 }
 	footer p{vertical-align: middle;padding-top:0;height:auto;font-size: 20px;}
 	footer a{vertical-align: middle;}
+	.text-format p,
+	.text-format h2,
+	.text-format h1,
+	.text-format h3{text-align: center;}
 }
 
 @media only screen and (max-width: 767px) {
 	header nav ul li a{font-size:17px;padding-right: 8px;}
 	.lets_work_together p,
 	.project .container p{font-size:24px;line-height: 1.5;}
-	.banner-heading h1, h1{font-size: 45px;text-align: center;}
+	.banner-heading h1, 
+	h1{font-size: 45px !important;text-align: center;}
 }
 
 @media only screen and (max-width: 480px) {
 	.logo a{font-size:24px}
+	.text-format h2,
 	.project .container h2,
 	.lets_work_together h2{font-size:30px}
 	.lets_work_together p,
+	.text-format p,
 	.project .container p{font-size:18px;}
+	.text-format p{line-height:1.5;padding-top:10px}
 	footer .center-wraper{    
 	display: flex;
     flex-direction: column-reverse;

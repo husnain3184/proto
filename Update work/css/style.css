@@ -42,6 +42,10 @@ body{
        url('../fonts/AcuminPro-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../fonts/AcuminPro-Italic.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
+/*global Styling work*/
+img{
+	width:100%
+}
 h1,
 h2,
 h3,
@@ -60,22 +64,60 @@ h2{
   width:100%; 
 }
 .center-wraper{
+	max-width: 1280px;
 	float: none;
 	margin: auto;
-	width:80%;
+	width: 95%;
 	
 }
 .top-padding{
-	padding-top: 50px;
+	padding-top: 30px;
 }
-.felx{
+.flex{
 	display: flex;
 }
+.padding{
+	padding: 50px 0 50px 0;
+}
+.hr-div{
+	text-align: center;
+}
+hr {
+    height: 6px;
+    width: 100px;
+    background-color: #00CFD4;
+    display: inline-block;
+    border: none;
+    margin:auto;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+}
+ figcaption{
+  text-align: center;
+  color:#1D1D1F;
+  font-size: 16px;
+  padding-top: 20px;
+ }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+.bgcolor{
+  background-color: #f6f8fb;
+}
 /*header backgrond image*/
-header{
+.home{
 	position: fixed;
-	transition: all 0.3s;
 	padding:50px 0; 
+	background:transparent;
+}
+header{
+	background-color:#000;
+	transition: all 0.3s;
+     padding:20px 0; 
+
+
 
 }
 header .center-wraper{
@@ -94,7 +136,9 @@ header .center-wraper{
 }
 header.active{ 
 	background-color:#000;
-	padding:20px 0; 
+	padding:20px 0;
+	position: fixed;
+ 
  }
 header .top-bar{
 	display: flex;
@@ -198,7 +242,8 @@ a.yellow{
 .project .more_project img{
 	display: inline-block;
 	vertical-align: middle;
-	padding-left:10px 
+	padding-left:10px;
+	max-width:24px
 }
 .project .container a{
 	text-decoration:none;
@@ -213,6 +258,7 @@ a.yellow{
 	float: right;
 	padding: 10px 0 50px 0;
 	font-family: 'AcuminPro-Regular';
+	display: flex;
 
 }
 /*lets to gether section star*/
@@ -267,6 +313,253 @@ a.yellow{
 
 }
 
+/*Vturst section start*/
+/*.shope_Reasearch img,
+.shope_ease img,
+.Mockups img{
+	width:auto;
+}*/
+.text-format p{
+	color: #86868B;
+	font-size: 26px;
+	line-height: 45px;	
+}
+.text-format h1{
+  font-size: 80px;
+  color: #1D1D1F;
+  text-align: center;
+   font-weight:400
+
+}
+.text-format h2{
+	font-size: 56px;
+	color: #1D1D1F;
+	 font-weight:400
+
+}
+.text-format h3{
+  font-size: 32px;
+  color: #86868B;
+  text-align: center;
+ letter-spacing: 1px;
+ padding: 20px 0px 12px 0;
+ font-weight:400
+}
+.back_come_btn ul{
+	display: flex;
+	justify-content: space-between;
+}
+.back_come_btn ul li{
+display: inline-block;
+}
+
+.back_come_btn ul li a.roted-icon img{
+transform: rotate(180deg);
+}
+.back_come_btn ul li a.roted-icon{
+	    padding-left:0px;
+	    padding-right: 15px;
+
+}
+.back_come_btn ul li a img{
+	display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    max-width:30px;
+    width:auto;
+}
+.back_come_btn ul li a{
+	font-size: 28px;
+	color: #1D1D1F;
+	text-decoration: none;
+	display: flex;
+}
+.Vtrust .Vtrust_banner{
+	padding-top: 100px;
+	margin: 0 auto;
+	width: 850px;
+}
+.Vtrust .vTrust_h2{
+	padding:105px 0 0px 0; 
+}
+.Vtrust h3 {
+    padding: 20px 0px 12px 0;
+}
+.Vtrust p {
+    padding: 20px 153px 0px 0px;
+}
+/*Vturst section end*/
+.Vtrust h3 {
+    padding: 20px 0px 12px 0;
+    color: #86868B;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+/*Reasearch section end*/
+.Reasearch{
+	background-color: #f6f8fb;
+}
+.Reasearch p{
+	padding-right: 25px ;
+	padding-bottom: 10px;
+}
+.flex-row{
+	padding:40px 0 0 0;
+}
+.Reasearch .col{
+	flex: 50%;
+}
+
+/*Reasearch section end*/	
+.persona img{
+	border: 2px solid #BDBDBD;
+}
+/*structure section start*/
+.structure .flex-row .col{
+	margin-right: 30px;
+}
+.structure img{
+	border: 2px solid #BDBDBD;
+}
+.container{
+	 position: relative;
+	 top: 20;
+	 left: 20;
+	 height: 600px;
+}
+
+.box-1{
+	position: absolute;
+}		
+.box-2{    
+    position: absolute;
+    top: 120px;
+    z-index: 9;
+    margin-left: 366px;
+}
+.box-3{
+    position: absolute;
+    top: 245px;
+    z-index: 9;
+    margin-left: 728px;
+}
+
+/*financial section end*/
+.financial{
+	background-color: #27353a;
+	height: 400px;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 68px;
+}
+.financial .bottom_img{
+	position: absolute;
+	top:-54px;
+}
+.financial .para{
+	float: right;
+}
+.financial .para p{
+	width: 330px;
+	color: #FFFFFF;
+	padding: 127px 0px 0 7px;
+}
+/*financial section end*/
+/*slider section start*/
+.slider-img ul{
+	text-align: center;
+}
+.slider-img ul li{
+	display: inline-block;
+	padding: 20px;
+}
+.slider-img ul li img{
+	border: 15px solid #010101; 
+	border-radius: 12%;
+	width:231px;
+	height:141px;
+}
+/*structure section end*/	
+
+/*SHOPE NEW PAGE STYLING START*/
+
+/*SHOPE EASE SECTION  START*/
+.shope_ease {
+ background-color: #F6F8FB
+}
+
+/*SHOPE EASE SECTION  END*/
+.shope_Reasearch .secondary_search{
+     margin: 0px 0px -195px 77px;
+}
+/*MOCKUP SECTION START*/
+.Mockups ul{
+  text-align: center;
+  padding-top: 20px;
+}
+.Mockups ul li{
+  display: inline-block;
+  padding: 40px;
+}
+.Mockups figcaption{
+  padding-top: 10px;
+
+}
+.Mockups h2{
+  font-size: 64px;
+}
+/*SHOPE NEW PAGE STYLING END*/
+
+/*THE GLOBE & MALL PAGE STYLING START*/
+
+.globe_banner{
+  background-color: #B10C23;
+}
+.globe_banner h1{
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+.globe_banner h3{
+  color: #FFFFFF;
+  padding: 0 0 0 0 ;
+}
+.globe_row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.globe_row .col-1{
+  max-width: 63%;
+}
+/*globe-Reasearch reaserch section start*/
+.globe-Reasearch{
+  background-color: #ffffff;
+  padding-top:104px;
+}
+.globe-Reasearch .para{
+  padding-top:50px;
+}
+.globe-Reasearch .para .list{
+  padding-bottom:40px;
+}
+.globe-Reasearch .list{
+  color: #86868B;
+  font-size: 26px;
+  line-height: 45px;  
+}
+.globe-Reasearch .flex-row .col-1{
+  padding:0 0 0 0;
+}
+.globe-Reasearch .flex-row .col-2{
+  padding-top: 56px;
+}
+.globe-Reasearch .flex-row  img{
+    border: 2px solid #BDBDBD;
+}
+.globe-Reasearch .flex-row .col-4 p{
+  padding: 0 0 0 60px;
+}
 
 
 /*footer section start */
