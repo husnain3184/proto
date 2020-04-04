@@ -2,16 +2,58 @@
 	padding: 0px;margin: 0px;box-sizing: border-box;
 }
 body{
-	font-family: 'Acumin';
+	font-family: 'AcuminPro-Regular';
 	font-size: 16px;
 }
-/*CUSTOM FONT*/
+
 @font-face {
-  font-family: Acumin;
-  src: url(../fonts/Acumin-RPro.otf),
-  url(../fonts/Acumin-BdItPro.otf),
-  url(../fonts/Acumin-BdPro.otf),
-  url(../fonts/Acumin-ItPro.otf);
+  font-family: 'AcuminPro-Regular';
+  src: url('../fonts/AcuminPro-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AcuminPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AcuminPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/AcuminPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AcuminPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AcuminPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'AcuminPro-Bold';
+  src: url('../fonts/AcuminPro-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AcuminPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AcuminPro-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/AcuminPro-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AcuminPro-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AcuminPro-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'AcuminPro-BoldItalic';
+  src: url('../fonts/AcuminPro-BoldItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AcuminPro-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AcuminPro-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/AcuminPro-BoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AcuminPro-BoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AcuminPro-BoldItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'AcuminPro-Italic';
+  src: url('../fonts/AcuminPro-Italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AcuminPro-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AcuminPro-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/AcuminPro-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AcuminPro-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AcuminPro-Italic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+h1,
+h2,
+h3,
+h4{
+  font-family: 'AcuminPro-Bold';}
+
+h1{
+	font-size:64px 
+}
+h2{
+
+	font-size:36px 
 }
 .full-width{
   float: left;
@@ -97,7 +139,6 @@ header nav ul li a{
   }
 
 .project h1{
-	font-size: 64px;
 	padding-bottom: 40px;
 }
 
