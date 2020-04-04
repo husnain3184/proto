@@ -1,0 +1,224 @@
+* {
+	padding: 0px;margin: 0px;box-sizing: border-box;
+}
+body{
+	font-family: 'AcuminPro-Regular';
+	font-size: 16px;
+}
+
+@font-face {
+  font-family: 'AcuminPro-Regular';
+  src: url('../fonts/AcuminPro-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AcuminPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AcuminPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/AcuminPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AcuminPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AcuminPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'AcuminPro-Bold';
+  src: url('../fonts/AcuminPro-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AcuminPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AcuminPro-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/AcuminPro-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AcuminPro-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AcuminPro-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'AcuminPro-BoldItalic';
+  src: url('../fonts/AcuminPro-BoldItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AcuminPro-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AcuminPro-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/AcuminPro-BoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AcuminPro-BoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AcuminPro-BoldItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'AcuminPro-Italic';
+  src: url('../fonts/AcuminPro-Italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AcuminPro-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AcuminPro-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/AcuminPro-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AcuminPro-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AcuminPro-Italic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+h1,
+h2,
+h3,
+h4{
+  font-family: 'AcuminPro-Regular';}
+
+h1{
+	font-size:64px 
+}
+h2{
+
+	font-size:36px 
+}
+<<<<<<< HEAD
+.full-width{float: left;width:100%; }
+.center-wraper{float: none;margin: auto;width:80%;}
+.top-padding{padding-top: 50px;}
+.felx{display: flex;}
+/*header backgrond image*/
+header{position: fixed;transition: all 0.3s;padding:50px 0;}
+header .center-wraper{display:flex;justify-content: space-between;align-items: center;}
+.logo a{color: #FFFFFF;font-size: 35px;font-family: 'AcuminPro-Regular';letter-spacing: 0.5px;text-decoration: none;}
+header.active{ background-color:#000;padding:20px 0; }
+header .top-bar{display: flex;justify-content: space-between;}
+header nav ul{list-style-type: none;}
+header nav ul li{display: inline-block;}
+header nav ul li a{color: #FFFFFF;font-size: 22px;line-height: 30px;text-align: ;padding-right:30px;display: block;text-decoration: none;font-weight:400; transition:all 0.2s; }
+=======
+.full-width{
+  float: left;
+  width:100%; 
+}
+.center-wraper{
+	max-width: 1280px;
+	float: none;
+	margin: auto;
+	width: 95%;
+	
+}
+.top-padding{
+	padding-top: 30px;
+}
+.felx{
+	display: flex;
+}
+/*header backgrond image*/
+.banner{
+	background-image: url("../images/portfoliobg.jpg");
+	width: 100%;
+    height: 853px;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+}
+/*menu bar is without navigation*/
+.top-nav{
+	background-color: #080808;
+}
+
+.logo a{
+	color: #FFFFFF;
+    font-size: 35px;
+    padding-left:21px;
+    font-family: Acumin;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+
+
+}
+
+header .top-bar{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px; 
+}
+header nav ul{
+	list-style-type: none;
+}
+header nav ul li{
+	display: inline-block;
+}
+	
+header nav ul li a{
+  color: #FFFFFF;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: ;
+  padding-right:30px;
+  display: block;
+  text-decoration: none;
+  font-weight:400; 
+  transition:all 0.2s; 
+}
+>>>>>>> 308466484fb409a832ee86cd1ac75a97ac9efab5
+/*top tex section start*/
+.banner-heading{display: flex;align-items: center;letter-spacing: 2px;background-image: url("../images/portfoliobg.jpg");padding:250px 0 450px 0;background-repeat: no-repeat;margin: auto;background-size: cover;background-position: center;}
+.banner-heading .center-wraper{text-align: right;}
+.banner-heading h1{color: #FFFFFF;font-size: 62px; font-family: 'AcuminPro-Bold';}
+/*project section start*/
+.project{padding-top: 60px;}
+.project h1{padding-bottom: 40px;font-weight: 400}
+.project .Vturst{background-color: #F6F8FB;padding: 45px 0;margin-bottom: 16px;}
+.project .container{display: flex;justify-content:space-between;align-items: center;}
+.project .container h2{font-size: 36px;letter-spacing: 1px;font-weight: 400}
+.project .container p{font-size: 24px;padding: 16px 0 0 0;color: #86868Bfont-weight: 400;line-height: 1.5;} 
+.project .container  a{padding-top: 15px;display: inline-block;font-size: 22px;text-decoration:none;}
+a.blue{color:#5F5BCA;}
+a.red{color: #FA6E59;}
+a.yellow{color: #FFA600;}
+.project .container a img{padding-left:5px }
+.project .container a img,
+.project .more_project img{display: inline-block;vertical-align: middle;padding-left:10px }
+.project .container a{text-decoration:none;font-size: 24px;font-family: 'AcuminPro-Regular';padding:30px 0 ; }
+.project .more_project a{text-decoration:none;color: #1D1D1F;font-size: 24px;float: right;padding: 10px 0 50px 0;font-family: 'AcuminPro-Regular';}
+/*lets to gether section star*/
+.lets_work_together{background-color: #28282A;color: #FFFFFF;padding: 104px 0 95px 0;}
+.lets_work_together h2{font-size: 64px;font-weight: 500;}
+.lets_work_together p{font-size: 28px;padding: 30px 0 20px 0;line-height: 42px;font-weight: 500;}
+.lets_work_together a{text-decoration: none;color: #FFFFFF;font-size: 29px;border: 1px solid #FFFFFF ;padding:18px 35px 16px 55px;border-radius: 1px;font-weight: 500;display: inline-block;margin-top: 30px;font-family: 'AcuminPro-Regular';}
+.lets_work_together a:hover{background-color: #ffffff6e;color: #000000;transition: 0.7s;}
+.Vturst .item-1{width: 45%;line-height: 0;margin-right: 0%;}
+.Vturst .item-1 img{width:100%;}
+.Vturst .item-2{width: 50%;max-width: 500px;}
+.project .Vturst:nth-child(4){padding-bottom: 0;}
+
+/*footer section start */
+<<<<<<< HEAD
+.fa {text-align: center;text-decoration: none;border-radius: 5px;font-size: 25px;}
+.fa:hover{background-color:#007bb5; transition: 0.7s;}
+.fa-linkedin {background: #020202;color: white;padding: 5px 7px 5px 7px;margin-left: 15px;}
+footer{padding: 72PX 0 72PX 0;}
+footer p{padding-top:10px;padding-right:20px;font-size: 26px;border-right: 2px solid #0a0a0a;display: inline-block;height: 50px;}
+=======
+.fa {
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 25px;
+}
+.fa:hover{
+    background-color:#007bb5; 
+    transition: 0.7s;
+}
+.fa-linkedin {
+    background: #020202;
+    color: white;
+    padding: 5px 7px 5px 7px;
+    margin-left: 15px;
+}
+
+footer{
+	padding: 72PX 0 72PX 0;
+	background-color: red;
+
+}
+footer p{
+    padding-top:10px;
+    padding-right:20px;
+    font-size: 26px;
+    border-right: 2px solid #0a0a0a;
+    display: inline-block;
+    height: 50px;
+ }
+  					/* vtrust new page css start*/
+.Vtrust .link a{
+	display:block;
+	float: right;
+	text-decoration:none;
+	font-size:28px;
+	color:#1D1D1F;
+	padding:20px 0 20px 0; 
+}
+.Vtrust .Vtrust_banner{
+	padding-top: 100px;
+	margin: 0 auto;
+	width: 850px;
+}
+
+>>>>>>> 308466484fb409a832ee86cd1ac75a97ac9efab5
