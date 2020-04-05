@@ -1,0 +1,49 @@
+
+@media only screen and (max-width: 1024px) {
+	.banner-heading h1,	
+	h1{font-size:54px !important}
+	h2{font-size:26px}
+}
+@media only screen and (max-width: 890px) {
+	.project .container{flex-direction: column;}
+	.Vturst .item-1{padding-bottom:40px;}
+	.Vturst .item-2,
+	.Vturst .item-1{width:100%;text-align:center;}
+	.project .Vturst:nth-child(4){padding:45px 0;}
+	.project h1{text-align: center;}
+	.lets_work_together{text-align: center;}
+	.banner-heading{min-height: 500px;padding:0 }
+	footer p{vertical-align: middle;padding-top:0;height:auto;font-size: 20px;}
+	footer a{vertical-align: middle;}
+	.text-format p,
+	.text-format h2,
+	.text-format h1,
+	.text-format h3{text-align: center;}
+}
+
+@media only screen and (max-width: 767px) {
+	header nav ul li a{font-size:17px;padding-right: 8px;}
+	.lets_work_together p,
+	.project .container p{font-size:24px;line-height: 1.5;}
+	.banner-heading h1, 
+	h1{font-size: 45px !important;text-align: center;}
+}
+
+@media only screen and (max-width: 480px) {
+	.logo a{font-size:24px}
+	.text-format h2,
+	.project .container h2,
+	.lets_work_together h2{font-size:30px}
+	.lets_work_together p,
+	.text-format p,
+	.project .container p{font-size:18px;}
+	.text-format p{line-height:1.5;padding-top:10px}
+	footer .center-wraper{    
+	display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;}
+    footer p{padding-right: 0;border-right:0;padding:20px 0; }
+}
