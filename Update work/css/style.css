@@ -312,13 +312,27 @@ a.yellow{
 	padding-bottom: 0;
 
 }
-
-/*Vturst section start*/
-/*.shope_Reasearch img,
-.shope_ease img,
-.Mockups img{
-	width:auto;
-}*/
+.col-img {
+	justify-content:space-between;
+}
+.justify-content {
+	justify-content:space-between;
+}
+.col-img .col.image-3{
+	padding-top: 25px;
+}.col-img .col.first h2{
+	padding-bottom: 29px;
+}
+.col-img .col.first img{
+	margin-bottom:3%
+}
+.col-img .col.first{
+	width:35%; 
+	margin-right: 2%;
+}
+.col-img .col{
+	width:73% 
+} 
 .text-format p{
 	color: #86868B;
 	font-size: 26px;
